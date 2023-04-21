@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="modal.css">
+<link href="https://fonts.cdnfonts.com/css/hero-new" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+</head>
+<body>
+    <div>
+       <div class="main">
+         <h2 class="main-text">Modals</h2>
+         <div class="btn-content">
+             <!-- Trigger/Open The Modal -->
+            <button id="myBtnSuccess" class="myBtnSuccess">Open Modal(success)</button>
+            <button id="myBtnWarning" class="myBtnWarning">Open Modal(warning)</button>
+            <button id="myBtnError" class="myBtnError">Open Modal(error)</button>
+         </div>
+       </div>
+        
+        <!-- The Success Modal -->
+        <div id="myModalSuccess" class="modal">
+          <!-- Modal content -->
+          <div class="modal-content">
+            <div class="modal-header-success">
+                <p class="modal-header-text">Success</p>
+            </div>
+            <div class="modal-text">
+                Lorem ipsum dolor set amet etc etc etc. Lorem ipsum dolor set amet etc etc etc  
+            </div>
+            <div class="modal-btns">
+                <button id="backBtnSuccess" class="back-btn-success">Go Back</button>
+                <button id="okayBtnSuccess" class="okay-btn-success">Okay</button>
+            </div>
+          </div>
+        </div>
+        <!-- The Warning Modal -->
+        <div id="myModalWarning" class="modal">
+          <!-- Modal content -->
+          <div class="modal-content">
+            <div class="modal-header-warning">
+                <p class="modal-header-text">Warning</p>
+            </div>
+            <div class="modal-text">
+                Lorem ipsum dolor set amet etc etc etc. Lorem ipsum dolor set amet etc etc etc  
+            </div>
+            <div class="modal-btns">
+                <button id="backBtnWarning" class="back-btn-warning">Go Back</button>
+                <button id="okayBtnWarning" class="okay-btn-warning">Okay</button>
+            </div>
+          </div>
+        </div>
+        <!-- The Error Modal -->
+        <div id="myModalError" class="modal">
+          <!-- Modal content -->
+          <div class="modal-content">
+            <div class="modal-header-error">
+                <p class="modal-header-text">Success</p>
+            </div>
+            <div class="modal-text">
+                Lorem ipsum dolor set amet etc etc etc. Lorem ipsum dolor set amet etc etc etc  
+            </div>
+            <div class="modal-btns-error">
+                <button id="okayBtnError" class="okay-btn-error">Okay</button>
+            </div>
+          </div>
+        </div>
+    </div>
+    <script src="./modal.js"></script>
+  </body>
+</html>
